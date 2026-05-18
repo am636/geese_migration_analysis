@@ -10,7 +10,19 @@
 
 This repository contains the scripts and workflows used in the study titled **"Multi-modal, interrelated navigation in migratory birds: A data mining study"**. The workflow includes preprocessing GPS tracking data, annotating it with environmental and geomagnetic variables, clustering the data, and interpreting the results through statistical and visual analyses. The repository is designed to support reproducibility of the methods described in the associated paper.
 
-The dataset is currently under preparation for publication in the Movebank Data Repository, and its DOI will be provided upon completion.
+## Data availability
+
+The processed GPS-tracking dataset is available on Zenodo: [10.5281/zenodo.15458188](https://doi.org/10.5281/zenodo.15458188) under a CC-BY 4.0 licence.
+
+The complete analysis workflow, including R and Python scripts, is archived on Zenodo: [10.5281/zenodo.15358009](https://doi.org/10.5281/zenodo.15358009) under an MIT licence, and mirrored on GitHub at [BEGIN-StAndrews/geese_migration_analysis](https://github.com/BEGIN-StAndrews/geese_migration_analysis).
+
+Raw GPS data originate from five Movebank studies and remain available under their original terms:
+
+- `127892189`
+- `408961322`
+- `13183695`
+- `180156318`
+- `44083081`
 
 ## Repository structure
 
@@ -56,6 +68,10 @@ If you use this code or workflow, please cite both the associated paper and the 
 **Associated paper**
 
 Moayedi, A., Long, J. A., Kölzsch, A., Kruckenberg, H., Benitez-Paez, F., & Demšar, U. (2025). Multi-modal, interrelated navigation in migratory birds: A data mining study. *Ecological Informatics*, 90, 103218. https://doi.org/10.1016/j.ecoinf.2025.103218
+
+**Processed GPS-tracking dataset**
+
+Kölzsch, A., Moayedi, A., Moonen, S., Müskens, G. J. D. M., Glazov, P., Wikelski, M., & Kruckenberg, H. (2025). Data from: Multi-modal, interrelated navigation in migratory birds: A data mining study. Zenodo. https://doi.org/10.5281/zenodo.15458188
 
 **Archived code release**
 
